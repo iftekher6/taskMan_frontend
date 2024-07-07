@@ -10,7 +10,7 @@ const roles = {
   USER : 1,
 }
 
-export const server = 'http://localhost:8001/api/v1';
+export const server = 'https://taskman-backend-8h9m.onrender.com/api/v1';
 
 
 export const Context = createContext({});
