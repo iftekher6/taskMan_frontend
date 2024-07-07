@@ -29,7 +29,7 @@ const {auth,setAuth} = useContext(Context)
   return (
     <nav className="header">
       <div>
-        <h2>taskPilot</h2>
+        <h2>taskMan</h2>
       </div>
       <article>
         <Link to={"/"}>Home</Link>
