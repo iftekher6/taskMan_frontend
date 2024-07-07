@@ -109,13 +109,14 @@ const Home = () => {
                    onChange={(e) => setDescription(e.target.value)}
                  />
      
-                 <button disabled={loading} type="submit">
+                 <button  type="submit">
                    Add Task
                  </button>
                </form>
              </section>
            </div>
       : null}
+ 
  { tasks.length < 1 
       ? <p>'No tasks given by Admin yet..'</p>
       :
